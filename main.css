@@ -61,3 +61,24 @@ html {
   width: 22px;
   height: 33px;
 }
+.description {
+  text-align: left;
+  padding: 0 20px 20px 20px;
+}
+.guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.guide-image {
+  display: block;
+  width: 200px;
+  height: 127px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.cardboard {
+  display: block;
+  width: 127px;
+  height: 127px;
+}

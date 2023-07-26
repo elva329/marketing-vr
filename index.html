@@ -21,12 +21,16 @@
       <div class="splash__card">
         <div class="splash__wrapper">
           <img src="img/other/left.png" class="bracket"/>
-          <h2 class="title">VR看故宫展览</h2>
+          <h2 class="title">VR看故宫文物</h2>
           <img src="img/other/right.png" class="bracket"/>
         </div>
         
-        <p>You can move around with WASD keys (desktop), by tapping the screen (mobile) or with the button on your Google Cardboard.</p>
-        <img class="splash__img" src="img/other/whoa.jpg" alt="whoa" />
+        <p class="description">You can move around with WASD keys or direction keys (desktop), by tapping the screen (mobile) or with the button on your Google Cardboard.</p>
+        <div class="guide">
+          <img class="guide-image" src="img/other/wasd.png" alt="wasd" />
+          <img class="guide-image" src="img/other/direction.png" alt="direction" />
+          <img class="cardboard" src="img/other/google-cardboard.png" alt="vr" />
+        </div>
         <img src="img/other/enter-button.png" class="splash__button"/>
       </div>
     </div>
@@ -122,6 +126,8 @@
       <!-- Secret Room -->
       <a-asset-item id="fox-obj" src="img/secret/fox/model.obj"></a-asset-item>
       <a-asset-item id="fox-mtl" src="img/secret/fox/materials.mtl"></a-asset-item>
+
+      <img id="sky" src="/img/other/sky.jpeg">
 
     </a-assets>
 
@@ -310,7 +316,7 @@
 
 
     <!-- Sky -->
-    <a-sky id="sky" color="#0000ff"></a-sky>
+    <a-sky id="sky" color="#9b4e50"></a-sky>
 
   </a-scene>
 
