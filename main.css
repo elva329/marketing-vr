@@ -72,13 +72,13 @@ html {
 }
 .guide-image {
   display: block;
-  width: 200px;
-  height: 127px;
+  width: 120px;
+  height: 76px;
   margin-right: 50px;
   margin-bottom: 30px;
 }
 .cardboard {
   display: block;
-  width: 127px;
-  height: 127px;
+  width: 76px;
+  height: 76px;
 }
