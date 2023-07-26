@@ -46,3 +46,18 @@ html {
   height: 160px;
   margin: 20px auto;
 }
+
+.splash__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bracket {
+  display: block;
+  width: 22px;
+  height: 33px;
+}
